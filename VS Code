@@ -1,0 +1,17 @@
+Step-1: pkg update
+Step-2: pkg upgrade
+Step-3: pkg install proot-distro
+Step-4: proot-distro list
+Step-5: proot-distro install ubuntu
+Step-6: proot-distro login ubuntu
+Step-7: apt update
+Step-8: apt upgrade
+Step-9: apt install wget
+Step-10: wget https://github.com/coder/code-server/releases/download/v4.16.1/code-server-4.16.1-linux-arm64.tar.gz
+Step-11: tar -xvf ./code-server-4.16.1-linux-arm64.tar.gz
+Step-12: cd code-server-4.16.1-linux-arm64
+cd bin
+Step-13: export PASSWORD="password"
+Step-14: ./code-server
+Step-15: You can check your server online
+Step-16: Search localhost:8080 in the search engine of chrome browser
